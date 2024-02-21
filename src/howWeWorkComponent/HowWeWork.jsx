@@ -9,7 +9,9 @@ const HowWeWork = () => {
         <samp>How we work</samp>
         </section>
       <section className='weWorkBottomDiv'>
-        <article className='pickUpDiv'></article>
+        <article className='pickUpDiv'>
+          <p>Pick up your cloth</p>
+        </article>
         <article className='washDiv'></article>
         <article className='deliverDiv'></article>
       </section>

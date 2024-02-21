@@ -1,5 +1,59 @@
 .howWeWorkMainDiv{
     width: 100%;
-    height: 80vh;
-    background-color: rgb(245, 243, 243);
+    height: 85vh;
+    background-color: rgb(250, 248, 248);
+}
+.weWorkTopDiv{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgb(167, 160, 160); */
+}
+.weWorkTopDiv p{
+    font-size: 17px;
+    margin-top: 5%;
+    /* background-color: rgb(214, 151, 151); */
+}
+.weWorkTopDiv samp{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* margin-top: 3%; */
+    /* background-color: rgb(214, 151, 151); */
+}
+.weWorkBottomDiv{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    /* background-color: rgb(207, 201, 201); */
+}
+.pickUpDiv{
+    width: 23%;
+    height: 65%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    background-color: white;
+    box-shadow: 0 0 10px lightgray;
+}
+.washDiv{
+    width: 23%;
+    height: 65%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    background-color: white;
+    box-shadow: 0 0 10px lightgray;
+}
+.deliverDiv{
+    width: 23%;
+    height: 65%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    background-color: white;
+    box-shadow: 0 0 10px lightgray;
 }

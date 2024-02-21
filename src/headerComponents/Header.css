@@ -7,8 +7,9 @@
     width: 100%;
     height: 85px;
     display: flex;
-    /* position: fixed; */
-    z-index: 99999;
+    position: fixed;
+    top: 0px;
+    /* z-index: 99999; */
     justify-content: space-around;
     background-color: rgb(241, 239, 239);
 }
@@ -34,6 +35,7 @@
 .writeUpDiv ul li{
     display: flex;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 .btnDiv{
     width: 20%;

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.HeaderMainDiv{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    /* position: fixed; */
+    z-index: 99999;
+    justify-content: space-around;
+    background-color: rgb(241, 239, 239);
+}
+.logoDiv{
+    width: 10%;
+    height: 100%;
+    margin-left: 4%;
+    background-color: rgb(127, 157, 255);
+}
+.writeUpDiv{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(127, 157, 255); */
+}
+.writeUpDiv ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.writeUpDiv ul li{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btnDiv{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(127, 157, 255); */
+}
+.loginButton{
+    width: 40%;
+    height: 64%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(168, 195, 212);
+    /* background-color: rgb(127, 157, 255); */
+}
+.loginButton:hover {
+    background-color: rgb(200, 199, 202);
+    color: white;
+}
+.signUpButton{
+    width: 40%;
+    height: 64%;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(127, 157, 255);
+}

@@ -18,11 +18,11 @@ const LandingPage = () => {
       <HowWeWork/>
       <LaundryShop/>
       <OurOffer/>
-      {/* <Plan/> */}
-      {/* <Partner/> */}
-      {/* <Testimony/> */}
-      {/* <Quality/> */}
-      {/* <Footer/> */}
+      <Plan/>
+      <Partner/>
+      <Testimony/>
+      <Quality/>
+      <Footer/>
     </div>
   )
 }

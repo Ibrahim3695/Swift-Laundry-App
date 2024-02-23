@@ -9,6 +9,7 @@ import RegisterLogin from './registerLoginComponent/RegisterLogin';
 import Signup from './signupComponent/Signup';
 import Login from './loginComponents/Login';
 import LandingPage from './landingPageComponents/LandingPage';
+import DashBoad from './dashBoardComponent/DashBoad';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login/>
+  },
+  {
+    path: "/dashboard",
+    element: <DashBoad/>
   },
 ]);
 

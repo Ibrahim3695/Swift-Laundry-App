@@ -12,17 +12,17 @@ import Footer from '../footerComponent/Footer'
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className='generalContainer'>
       <Header/>
       <HeroPage/>
       <HowWeWork/>
       <LaundryShop/>
       <OurOffer/>
-      <Plan/>
-      <Partner/>
-      <Testimony/>
-      <Quality/>
-      <Footer/>
+      {/* <Plan/> */}
+      {/* <Partner/> */}
+      {/* <Testimony/> */}
+      {/* <Quality/> */}
+      {/* <Footer/> */}
     </div>
   )
 }

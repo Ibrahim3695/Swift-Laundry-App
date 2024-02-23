@@ -4,7 +4,11 @@ import "./Header.css"
 const Header = () => {
   return (
     <div className='HeaderMainDiv'>
-      <section className='logoDiv'></section>
+      <section className='logoDiv'>
+        <img src="./grace.png" alt="" className='swiftLaundryLogo'/>
+      <h3 className='menu'>Menu</h3>
+
+      </section>
       <section className='writeUpDiv'>
         <ul>
           <li>Home</li>

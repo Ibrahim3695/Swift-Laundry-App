@@ -33,6 +33,7 @@
     height: 23%;
     font-size: 16px;
     line-height: 25px;
+    margin-top: 13%;
     /* background-color: rgb(185, 168, 168); */
 }
 .getStartedButton{
@@ -55,4 +56,84 @@
     height: 100%;
     object-fit: cover;
     /* background-color: rgb(237, 248, 218); */
+}
+
+
+@media screen and (max-width:320px) {
+    .heroPageMainDiv{
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        background-color: lavender;
+        margin-top: 6.4%;
+    }
+    .leftDiv{
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(182, 180, 180); */
+    }
+    .leftHold {
+        width: 78%;
+        height: 57%;
+        font-size: 20px;
+        line-height: 20px;
+        /* background-color: rgb(153, 130, 130); */
+    }
+    .leftDiv h1{
+        width: 100%;
+        height: 40%;
+        font-size: 23px;
+        line-height: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: rgb(130, 153, 147); */
+    }
+    .leftDiv h1 span{
+        width: 100%;
+        height: 40%;
+        font-size: 23px;
+        line-height: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(127, 157, 255) ;
+        /* background-color: rgb(130, 153, 147); */
+    }
+    .leftDiv p{
+        width: 100%;
+        height: 40%;
+        font-size: 12px;
+        line-height: 25px;
+        margin-top: 13%;
+        /* background-color: rgb(220, 47, 47); */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(189, 182, 182);
+    }
+    .getStartedButton{
+        width: 50%;
+        height: 17%;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        /* margin-top: 10%; */
+        background-color: rgb(127, 157, 255);
+    } 
+    .rightDiv{
+        width: 50%;
+        height: 100%;
+        /* background-color: rgb(237, 248, 218); */
+        display: none;
+
+    }
+    .rightDiv img{
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+        /* background-color: rgb(237, 248, 218); */
+    }
+    
+    
+    
 }

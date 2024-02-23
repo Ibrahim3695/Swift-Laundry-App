@@ -5,19 +5,23 @@
 }
 .HeaderMainDiv{
     width: 100%;
-    height: 85px;
+    height: 70px;
     display: flex;
     position: fixed;
     top: 0px;
     /* z-index: 99999; */
     justify-content: space-around;
-    background-color: rgb(241, 239, 239);
+    background-color: white;
+    box-shadow: 0 0 8px lightsteelblue;
 }
 .logoDiv{
     width: 10%;
     height: 100%;
     margin-left: 4%;
-    background-color: rgb(127, 157, 255);
+    /* background-color: rgb(127, 157, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .writeUpDiv{
     width: 33%;
@@ -34,8 +38,9 @@
 }
 .writeUpDiv ul li{
     display: flex;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
+    font-size: 14px;
 }
 .btnDiv{
     width: 20%;
@@ -46,23 +51,86 @@
     /* background-color: rgb(127, 157, 255); */
 }
 .loginButton{
-    width: 40%;
-    height: 64%;
+    width: 35%;
+    height: 50%;
     border-radius: 10px;
     cursor: pointer;
     border: 1px solid rgb(168, 195, 212);
-    /* background-color: rgb(127, 157, 255); */
+    background-color: white;
 }
 .loginButton:hover {
     background-color: rgb(200, 199, 202);
     color: white;
 }
 .signUpButton{
-    width: 40%;
-    height: 64%;
+    width: 35%;
+    height: 50%;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     background-color: rgb(127, 157, 255);
+}
+
+.menu{
+    display: none;
+}
+
+
+
+@media screen and (max-width:350px) {
+
+    .HeaderMainDiv{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        /* z-index: 99999; */
+        justify-content: center;
+        /* background-color: green; */
+        box-shadow: 0 0 8px lightsteelblue;
+        align-items: center;
+        /* padding-inline: 50px; */
+    }
+
+
+    .swiftLaundryLogo{
+        display: flex;
+    }
+
+
+    .logoDiv{
+        width: 90%;
+        /* background: red; */
+        margin-right: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .writeUpDiv{
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(127, 157, 255); */
+        display: none;
+    }
+
+
+    .btnDiv{
+        display: none;
+    }
+
+
+    .logoDiv{
+        display: flex;
+    }
+
+
+    .menu{
+        display:flex;
+    }
 }

@@ -6,8 +6,6 @@ const Header = () => {
     <div className='HeaderMainDiv'>
       <section className='logoDiv'>
         <img src="./grace.png" alt="" className='swiftLaundryLogo'/>
-      <h3 className='menu'>Menu</h3>
-
       </section>
       <section className='writeUpDiv'>
         <ul>
@@ -23,6 +21,10 @@ const Header = () => {
       <section className='btnDiv'>
         <button className='loginButton'>Login</button>
         <button className='signUpButton'>Sign up</button>
+      </section>
+
+      <section className='burgerIconImage'>
+        <img src="./burger.png" alt="" />
       </section>
     </div>
   )

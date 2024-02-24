@@ -40,7 +40,7 @@ const DashBoad = () => {
                             <img src="./notification.png" alt="" />
                         <img src="./profile.png" alt=""  className='image'/>
                         </div>
-                        <h3>menu</h3>
+                        <h3 className='burgerMenu'>menu</h3>
                     </div>
                 </header><hr />
                 <div className='dashBoardRightBody'>

@@ -15,6 +15,11 @@
 }
 
 
+.burgerMenu{
+    display: none;
+}
+
+
 .dashBoardRight{
     height: 100%;
     width: 80%;
@@ -417,6 +422,11 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+    }
+
+
+    .burgerMenu{
+        display: flex;
     }
 
 

@@ -15,14 +15,14 @@ const LandingPage = () => {
     <div className='generalContainer'>
       <Header/>
       <HeroPage/>
-      <HowWeWork/>
-      <LaundryShop/>
-      <OurOffer/>
-      <Plan/>
-      <Partner/>
-      <Testimony/>
-      <Quality/>
-      <Footer/>
+      {/* <HowWeWork/> */}
+      {/* <LaundryShop/> */}
+      {/* <OurOffer/> */}
+      {/* <Plan/> */}
+      {/* <Partner/> */}
+      {/* <Testimony/> */}
+      {/* <Quality/> */}
+      {/* <Footer/> */}
     </div>
   )
 }

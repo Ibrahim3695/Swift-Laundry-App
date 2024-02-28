@@ -24,7 +24,7 @@ const RegisterLogin = () => {
           <div className='registeredBtnContainers'>
             <button className='signUps'>Login</button>
             <div className='alreadyHaveAccounts'>
-              <span>Don't have an account? <b>Sign up</b></span>
+              <span>Don't have an account? <b>Register business</b></span>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import "./Plan.css"
 
 const Plan = () => {
   return (
-    <div className='planMainDiv'>
+    <div id='plans' className='planMainDiv'>
       {/* <img src="./basket.png" alt="" /> */}
       <section className='planTopDiv'>
         <p>Choose A Business <span>Plan</span></p>
@@ -68,6 +68,10 @@ const Plan = () => {
         </article>
 
       </section>
+
+      <div className="blur_pic">
+        
+      </div>
     </div>
   )
 }

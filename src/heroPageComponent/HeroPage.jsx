@@ -4,7 +4,7 @@ import "./HeroPage.css"
 
 const HeroPage = () => {
   return (
-    <div className='heroPageMainDiv'>
+    <div id='home' className='heroPageMainDiv'>
       <section className='leftDiv'>
         <article className='leftHold'>
           <h1>A <samp className='conv'>Convenient</samp> Solution For All Your <span>Laundry</span> Needs.</h1>

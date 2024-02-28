@@ -10,32 +10,60 @@ import Signup from './signupComponent/Signup';
 import Login from './loginComponents/Login';
 import LandingPage from './landingPageComponents/LandingPage';
 import DashBoad from './dashBoardComponent/DashBoad';
+import Testimony from './testimonyComponent/Testimony';
+import Layout from './layoutComponent/Layout';
+import ShopPage from './pagesComponent/ShopPage';
+import OfferPage from './pagesComponent/OfferPage';
+import OurOffer from './ourOfferComponent/OurOffer';
+import PlanPage from './pagesComponent/PlanPage';
+import AboutPage from './pagesComponent/AboutPage';
+import ContactPage from './pagesComponent/ContactPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <LandingPage/>
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <LandingPage />
+      },
+      {
+        path: "/shopPage",
+        element: <ShopPage />
+      },
+   
+      {
+        path: "/aboutPage",
+        element: <AboutPage />
+      },
+      {
+        path: "/contactPage",
+        element: <ContactPage />
+      },
+    ]
   },
   {
     path: "/registerSignup",
-    element: <RegisterSignUp/>
+    element: <RegisterSignUp />
   },
   {
     path: "/registerLogin",
-    element: <RegisterLogin/>
+    element: <RegisterLogin />
   },
   {
     path: "/signup",
-    element: <Signup/>
+    element: <Signup />
   },
   {
     path: "/login",
-    element: <Login/>
+    element: <Login />
   },
   {
     path: "/dashboard",
-    element: <DashBoad/>
+    element: <DashBoad />,
   },
+
 ]);
 
 const App = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../headerComponents/Header'
+// import Header from '../headerComponents/Header'
 import HeroPage from '../heroPageComponent/HeroPage'
 import HowWeWork from '../howWeWorkComponent/HowWeWork'
 import LaundryShop from '../laundryShopComponent/LaundryShop'
@@ -13,7 +13,7 @@ import Footer from '../footerComponent/Footer'
 const LandingPage = () => {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
       <HeroPage/>
       <HowWeWork/>
       <LaundryShop/>

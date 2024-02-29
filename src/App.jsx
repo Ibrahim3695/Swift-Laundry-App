@@ -9,7 +9,7 @@ import RegisterLogin from './registerLoginComponent/RegisterLogin';
 import Signup from './signupComponent/Signup';
 import Login from './loginComponents/Login';
 import LandingPage from './landingPageComponents/LandingPage';
-import DashBoad from './dashBoardComponent/DashBoad';
+import DashBoad from './dashBoardComponent/DashBoard';
 import Testimony from './testimonyComponent/Testimony';
 import Layout from './layoutComponent/Layout';
 import ShopPage from './pagesComponent/ShopPage';
@@ -18,6 +18,10 @@ import OurOffer from './ourOfferComponent/OurOffer';
 import PlanPage from './pagesComponent/PlanPage';
 import AboutPage from './pagesComponent/AboutPage';
 import ContactPage from './pagesComponent/ContactPage';
+import DashboardLayout from './dashboardLayoutComponent/DashboardLayout';
+import Order from './orderComponent/Order';
+import Subscribe from './subscribeComponent/Subscribe';
+import DashBoard from './dashBoardComponent/DashBoard';
 
 const router = createBrowserRouter([
   {
@@ -32,7 +36,7 @@ const router = createBrowserRouter([
         path: "/shopPage",
         element: <ShopPage />
       },
-   
+
       {
         path: "/aboutPage",
         element: <AboutPage />
@@ -59,12 +63,30 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />
   },
-  {
-    path: "/dashboard",
-    element: <DashBoad />,
-  },
+  
 
+
+  {
+    element: <DashboardLayout />,
+    children: [
+      {
+        path: "/dashboards",
+        element: <DashBoard/>
+      },
+      {
+        path: "/order",
+        element: <Order/>
+      },
+      {
+        path: "/subscribe",
+        element: <Subscribe/>
+      },
+
+    ]
+  },
 ]);
+
+
 
 const App = () => {
   return (

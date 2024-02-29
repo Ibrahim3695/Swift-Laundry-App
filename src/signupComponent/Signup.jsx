@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./SignUp.css"
 
 const Signup = () => {
+
+  const [firstName,setFistName] = useState(" ")
+
   return (
     <div>
       <div className='wholebodya'>

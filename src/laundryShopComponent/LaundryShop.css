@@ -198,7 +198,12 @@
     cursor: pointer;
     border: none;
     color: black;
+}
 
+.divbg{
+    height: 50%;
+    width: 90%;
+    background: red;
 }
 
 
@@ -211,8 +216,8 @@
 @media screen and (max-width: 500px) {
     .laundryShopMainDiv {
         width: 100%;
-        height: 220vh;
-        margin-top: 38%;
+        height: 225vh;
+        /* margin-top: 38%; */
         /* background-color: rgb(180, 198, 226); */
     }
     
@@ -247,21 +252,22 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 20px;
+        gap: 1px;
         /* position: relative; */
+        margin-top: 25px;
         /* background-color: rgb(72, 122, 108); */
     }
     
     .pickUpDivs {
-        width: 80%;
-        height: 75%;
+        width: 55%;
+        height: 35%;
         border-radius: 5px;
-        margin-bottom: 3%;
+        margin-top: 3%;
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        background-color: white;
+        /* background-color: red; */
         box-shadow: 0 0 7px lightgray;
     }
     
@@ -304,15 +310,15 @@
     }
     
     .washDivs {
-        width: 80%;
-        height: 75%;
+        width: 55%;
+        height: 35%;
         border-radius: 5px;
-        margin-bottom: 3%;
+        /* margin-bottom: 3%; */
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        background-color: white;
+        /* background-color: red; */
         box-shadow: 0 0 7px lightgray;
     }
     
@@ -354,15 +360,15 @@
     }
     
     .deliverDivs {
-        width: 80%;
-        height: 75%;
+        width:55%;
+        height:35%;
         border-radius: 5px;
-        margin-bottom: 3%;
+        /* margin-bottom: 3%; */
         background-color: white;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        flex-direction: column;
+        flex-direction: cored
         box-shadow: 0 0 7px lightgray;
     }
     

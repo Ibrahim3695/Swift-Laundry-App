@@ -9,7 +9,6 @@ const HowWeWork = () => {
         <samp>How we work</samp>
       </section>
       <section className='weWorkBottomDiv'>
-
         <article className='pickUpDiv'>
           <div className='pickUpLogo'>
             <img src="./Frame1.png" alt="" className='frameLogo2'/>
@@ -33,6 +32,7 @@ const HowWeWork = () => {
           <h2>Deliver Clothes</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium nulla excepturi quasi explicabo cumque.</p>
         </article>
+         master
       </section>
     </div>
   )
